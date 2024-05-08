@@ -1,0 +1,11 @@
+Package: Numerico
+Type: Package
+Title: Numerical methods 
+Version: 0.0.1
+Author: Matias Rosenstein
+Maintainer: Matias Rosenstein <matias.rosenstein00@gmail.com>
+Description: Provides implementations of common numerical methods in R, including interpolation (Newton, Lagrange, Hermite), equation solving methods (Newton-Raphson, bisection, regula falsi), difference calculations, Taylor polynomials, splines, Bernoulli numbers, and more.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1

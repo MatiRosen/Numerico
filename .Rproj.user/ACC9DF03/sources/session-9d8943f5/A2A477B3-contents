@@ -1,0 +1,10 @@
+IntegTrap<-function(func,a,b,n){
+  h =(b-a)/n
+  if(n>1){c=c(1:(n-1))} else{
+    c=0}
+  integral=(h/2)*(func(a)+func(b)+(2*sum(func(a+(c*h)))))    
+  return(integral) }
+
+# Example
+fn<-function(x){y=x^2-2;return(y)}
+IntegTrap(fn,0,2,12)
