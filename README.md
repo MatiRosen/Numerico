@@ -14,7 +14,7 @@ library(devtools)
 install_github("MatiRosen/Numerico")
 ```
 
-Now you can start using all the functions provided by the Numerico package in your R environment. To learn more about a specific function, use help(func) to see its description, arguments, and return value.
+Now you can start using all the functions provided by the Numerico package in your R environment. To learn more about a specific function, use ?Numerico::func to see its description, arguments, and return value.
 
 ## Available Functions
 Here are the functions available in the Numerico package:
