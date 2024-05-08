@@ -13,6 +13,10 @@ library(devtools)
 ```
 install_github("MatiRosen/Numerico")
 ```
+##4. Load the package:
+```
+library(Numerico)
+```
 
 Now you can start using all the functions provided by the Numerico package in your R environment. To learn more about a specific function, use ?Numerico::func to see its description, arguments, and return value.
 
